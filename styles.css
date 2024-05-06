@@ -149,11 +149,20 @@ div.header li a.link:hover {
     display: inline-block;
     left: 400px;
     top: 20px;
-    /* position: fixed; */
   }
 
   div.header nav {
     display: none;
+  }
+}
+/* Medium Devices*/
+@media only screen and (min-width: 1251px) and (max-width: 1400px) {
+  div.header {
+    width: 1400px;
+    margin: auto;
+  }
+  div.header-box {
+    width: 100vw;
   }
 }
 
@@ -440,7 +449,7 @@ div.border img {
   height: 44px;
 }
 
- div.border:hover {
+div.border:hover {
   background-color: rgb(238, 98, 107);
 }
 
@@ -977,11 +986,19 @@ div.cards img:hover {
     width: 480px;
     flex-direction: column;
   }
+  div.cards img {
+    width: 235px;
+    height: 220px;
+  }
 }
 /* Medium Devices*/
 @media only screen and (min-width: 481px) and (max-width: 1250px) {
   div.card-container {
     width: 1500px;
+  }
+  div.cards img {
+    width: 235px;
+    height: 220px;
   }
 }
 
